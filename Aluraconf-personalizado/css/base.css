@@ -1,0 +1,56 @@
+:root {
+    --azul-escuro: #051933;
+    --azul-nav: #0a386f;
+    --azul-destaque: #167bf7;
+    --branco-off: #f5f6fd;
+    --branco: #ffffff;
+    --verde-button: #a3ffbf;
+}
+
+
+body {
+    background-color: var(--branco-off);
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.field {
+    margin-bottom: 16px;
+}
+
+.field label {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom:10px;
+
+}
+
+.field .field-input {
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px var(--azul-destaque);
+    display: block;
+    font-size: 20px;
+    padding: 5px;
+    width: 95%;
+}
+
+.button {
+    background-color: #48A3A6;
+    border-radius: 8px;
+    color: white;
+    display: inline-block;
+    font-size: 18px;
+    padding: 25px 50px;
+    text-decoration: none;
+
+}
+
+.button:hover {
+    font-weight: bolder;
+     transition: 0.6s;
+}

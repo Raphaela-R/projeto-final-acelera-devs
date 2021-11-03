@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/speakers.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+    
+    <title>Aluraconf</title>
+</head>
+    <body>
+        <header class="header">
+            <nav class="main-menu">
+                <ul>
+                    <li class="menu-item"><a href="#panel-about" >Sobre</a></li>
+                    <li class="menu-item"><a href="#panel-speakers" >Palestrantes</a></li>
+                </ul>
+            </nav>
+            <div class="jumbotron">
+                <section class="panel-main">
+                    <h1 class="title">ALURACONF</h1>
+                    <h2 class="subtitle">30MAIO|RIO</h2>
+                </section>
+                <section class="panel-subscribe"><a href="#panel-form" class="button">INSCREVA-SE</a></section>
+            </div>
+        </header>
+
+        <div class="container">      
+        <section id="panel-about" class="panel panel-about">
+
+            <h2 class="title">Muito conteúdo: do frontend ao backend</h3>
+            <h3 class="subtitle">30 de Maio de 2021 - na Cidade Maravilhosa</h4>
+
+            <div class="about-description">
+                <p>Com a AluraConf abordaremos o que há de novidade e conhecimentos essenciais a um desenvolvedor mobile.</p>
+                <p>É uma grande chance de ficar por dentro dos assuntos de Android, iOS, Web mobile, desenvolvimento híbrido, UX, além da parte backend com Rest, Microservices, e BigData. O desenvolvedor atualizado vai estar aqui.
+                </p>
+            </div>
+        </div>  
+        </section>
+        
+        <section id="panel-speakers" class="panel panel-speakers">
+            <div class="container">
+
+                <div class="about-speakers">
+                    <h2 class="title">Palestrantes</h2>
+                    <h3 class="subtitle">Aprenda com palestrantes que são referência no mercado</h3>
+                </div>
+
+                <ul class="speakers">
+                    <li class="speaker">
+                        <figure class="speaker-portrait">
+                            <img class="speaker-image" src="img/palestrantes/FalvioA.png" alt="Foto do palestrante">
+                            <figcaption class="speaker-name">Flávio Almeida</figcaption>
+                            <p class="speaker-bio">Desenvolvedor e Instrutor da Caelum</p>
+                        </figure>
+                        <p class="speaker-speech">Melhores cursos para iniciantes</p>
+                    </li>
+
+                    <li class="speaker">
+                        <figure class="speaker-portrait">
+                            <img class="speaker-image" src="img/palestrantes/RafaB.PNG" alt="Foto do palestrante">
+                            <figcaption class="speaker-name">Rafaella Ballerini</figcaption>
+                            <p class="speaker-bio">Desenvolvedor e Instrutora Front-End da Alura</p>
+                        </figure>
+                        <p class="speaker-speech">Criando conteúdo Dev</p>
+                    </li>
+
+                    <li class="speaker">
+                        <figure class="speaker-portrait">
+                            <img class="speaker-image" src="img/palestrantes/MarcoB.PNG" alt="Foto do palestrante">
+                            <figcaption class="speaker-name">Marco Bruno</figcaption>
+                            <p class="speaker-bio">Desenvolvedor e Streamer na Twitch</p>
+                        </figure>
+                        <p class="speaker-speech">Live Coding feliz</p>
+                    </li>
+
+                    <li class="speaker">
+                        <figure class="speaker-portrait">
+                            <img class="speaker-image" src="img/palestrantes/MarioS.png" alt="Foto do palestrante">
+                            <figcaption class="speaker-name">Mario Souto</figcaption>
+                            <p class="speaker-bio">Desenvolvedor e Youtuber</p>
+                        </figure>
+                        <p class="speaker-speech">Como ficar soutinho soutinho</p>
+                    </li>
+
+                    <li class="speaker">
+                        <figure class="speaker-portrait">
+                            <img class="speaker-image" src="img/palestrantes/PauloS.jpg" alt="Foto do palestrante">
+                            <figcaption class="speaker-name">Paulo Silveira</figcaption>
+                            <p class="speaker-bio">CEO no Grupo Alura</p>
+                        </figure>
+                        <p class="speaker-speech"> Profissional em T</p>
+                    </li>
+
+                    <li class="speaker">
+                        <figure class="speaker-portrait">
+                            <img class="speaker-image" src="img/palestrantes/GuilhermeS.PNG" alt="Foto do palestrante">
+                            <figcaption class="speaker-name">Guilherme Silveira</figcaption>
+                            <p class="speaker-bio">Co-Fundador e  Grupo Alura</p>
+                        </figure>
+                        <p class="speaker-speech">Backend e Data Science</p>
+                    </li>
+                </ul>
+            </div>   
+         
+        </section>
+        
+        <section id="panel-form" class="panel-form">
+            <div class="container">
+                <h2 class="title">SEUS DADOS</h2>
+
+                <form>
+                    <div class="field">
+                        <label>Nome</label>
+                        <input class="field-input" type="text">
+                    </div>
+                    <div class="field">
+                        <label>E-mail</label>
+                        <input class="field-input" type="email">
+                    </div>
+                <div class="button-place">    
+                    <button class="button">Realizar Inscrição</button>
+                </div>
+                </form> 
+            </div>
+        </section>
+        <script src="js/jquery.js"></script>
+        <script src="js/index.js"></script>
+
+        <footer class="footer container">
+            <p class="footer-menu">Agradecimentos</p>
+            <nav class="footer-menu">
+                <ul>
+                    <li><a href="https://www.tivit.com/"><img src="img/icon/tivit.png" alt="Logo da Tivit" class="footer-logo--tivit"></li>
+                    <li><a href="https://www.alura.com.br"><img src="img/alura-logo.1616501197.svg" alt="Logo da Alura" class="footer-logo"></a></li>
+                </ul>    
+                <p class="author">&#169; Raphaela Rocha | 2021</p>
+
+                <ul class="footer-link">
+                    <li><a href="https://www.linkedin.com/in/raphaela-r/"><img src="img/icon/linkedin.png" alt="Ícone do Github" class="footer-icon"></a></li>
+                    <li><a href="https://github.com/Raphaela-R"><img src="img/icon/github.png" alt="Ícone do Linkedin" class="footer-icon"></a></li>
+                </ul>
+            </nav>
+        </footer>
+
+    </body>
+
+</html>
+
+

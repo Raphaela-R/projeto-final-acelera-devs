@@ -1,0 +1,36 @@
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.field {
+    margin-bottom: 16px;
+}
+
+.field label {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom:10px;
+
+}
+
+.field .field-input {
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #48A2A6;
+    display: block;
+    font-size: 20px;
+    padding: 5px;
+    width: 95%;
+}
+
+.button {
+    background-color: #48A3A6;
+    border-radius: 8px;
+    color: white;
+    display: inline-block;
+    font-size: 18px;
+    padding: 25px 50px;
+    text-decoration: none;
+
+}
