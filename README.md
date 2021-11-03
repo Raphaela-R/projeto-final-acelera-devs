@@ -1,4 +1,4 @@
-# Projeto de Conclusão Alura - Acelera Devs Ed. Mulheres.
+# Projeto de Conclusão Alura - Acelera Devs.
 
 Projeto de conclusão da trilha de formação Front-End Alura pelo programa Acelera Devs 2021 Edição Mulheres | TIVIT & MCIO
 
